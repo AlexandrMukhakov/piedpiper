@@ -1,0 +1,200 @@
+//ПЕРЕМЕННЫЕ 
+$primoryHead:#007765;
+$primory1: #EEEEEE;
+$primary2: #FFFFFF;
+$primoryFooter:#333333;
+
+
+
+
+
+.container {
+    padding: 0px 300px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:$primoryHead;
+
+    .headItems {
+        display:flex;
+        justify-content: space-around;
+        font-weight: 500;
+        font-size: 24px;
+        color: $primary2;
+
+            .headItem1,
+            .headItem2 {
+                border-right: 1px solid rgb(255, 255, 255);
+                margin-right: 8px;
+                padding-right: 8px;
+            }
+    }
+
+    .logo {
+        h1 {
+         align-items:center; 
+         color: $primary2;
+        }
+    }
+}
+
+
+
+.block2 {
+    background-image:url(/asecc/img/fonBlock2.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+    .piper {
+        padding: 160px 396px;
+        font-size: 72px;
+        font-weight: 500;
+        color:$primary2;
+        text-align: center;
+    }
+}
+
+
+
+.problem {
+   padding-top: 48px;
+   padding-bottom: 92px;
+    background-color:$primory1;
+
+    .headProblem {
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+        color:#007765;
+    }
+
+    .contentProblem {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        padding-top: 16px;
+    }
+}
+
+
+.block4 {
+    background-image:url(/asecc/img/fonBlock4.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+    .contentBlock4 {
+        font-weight: 500;
+        font-size: 48px;
+        color:$primary2;
+        text-align: center;
+        font-style: italic;
+        padding: 128px 250px;
+    }
+}
+
+
+.headIntro {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    margin-bottom: 16px;
+}
+
+
+.contentImg {
+    display: flex;
+    margin-bottom: 40px;
+
+    .img {
+        margin-right: 48px;
+    }
+
+    .contentImage {
+        font-weight: 400;
+        font-size: 22px;
+        font-style: italic;
+        line-height: 38px;
+
+    }
+}
+
+.contentIntro {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 92px;
+}
+
+
+.theTeam {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color:#007765;
+    margin-bottom: 56px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 112px;
+}
+
+
+.employee1,
+.employee2,
+.employee3,
+.employee4,
+.employee5,
+.employee6 {
+    display: block;
+    text-align: center;
+
+    p {
+        font-weight: 700;
+        font-size: 18px;
+        color: #007765;
+        margin-top: -5px;
+    }
+    div {
+        font-weight: 400;
+        font-size: 12px;
+        font-style: italic;
+        margin-top: -15px;
+    }
+}
+
+.team {
+    background-color:$primory1;
+}
+
+
+.footer {
+    background-color:$primoryFooter;
+
+    .contentFooter {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: $primory1;
+        padding: 50px 200px 50px 200px;
+    }
+}
