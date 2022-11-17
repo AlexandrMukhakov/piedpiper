@@ -158,12 +158,7 @@ $primoryFooter:#333333;
 }
 
 
-.employee1,
-.employee2,
-.employee3,
-.employee4,
-.employee5,
-.employee6 {
+.employee{
     display: block;
     text-align: center;
 
@@ -198,3 +193,123 @@ $primoryFooter:#333333;
         padding: 50px 200px 50px 200px;
     }
 }
+
+
+@media (max-width: 1260px) {
+    .container {
+        padding: 0px 150px;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .container {
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .intro {
+       display: block;
+       .contentImg {
+        display: block;
+       }
+    }
+    .img {
+        float: left;
+      }
+
+}
+
+@media (max-width: 1075px) {
+    .block2 {
+        .piper {
+            padding: 100px;
+        }
+    }
+
+    .block4 {
+    .contentBlock4 {
+        padding: 100px 50px;
+    }
+}
+}
+
+@media (max-width: 540px) {
+    .employeers {
+        display: block;
+        .up {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+
+        .employee {
+            margin-bottom: 20px;
+        }
+        .down {
+            margin-top: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@media (max-width: 777px) {
+    .footer {
+        .contentFooter {
+            padding: 40px 20px;
+        }
+    }
+}
+
+@media (max-width: 504px) {
+    .header {
+        .logo {
+            font-size: 15px;
+        }
+        .headItems {
+            font-size: 15px;
+        }
+    }
+
+    .block2 {
+    .piper {
+        font-size: 50px;
+    }
+}
+
+.problem {
+    .headProblem {
+        font-size: 50px;
+    }
+    .contentProblem {
+        font-size: 18px;
+    }
+}
+
+.block4 {
+    .contentBlock4 {
+        font-size: 38px;
+    }
+}
+
+.intro {
+    .headIntro {
+        font-size: 50px;
+    }
+}
+}
+
+@media (max-width: 504px) {
+    .header {
+        .logo {
+            font-size: 10px;
+        }
+        .headItems {
+            font-size: 10px;
+        }
+    }}

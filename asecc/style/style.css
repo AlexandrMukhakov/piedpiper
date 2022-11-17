@@ -126,32 +126,17 @@
   padding-bottom: 112px;
 }
 
-.employee1,
-.employee2,
-.employee3,
-.employee4,
-.employee5,
-.employee6 {
+.employee {
   display: block;
   text-align: center;
 }
-.employee1 p,
-.employee2 p,
-.employee3 p,
-.employee4 p,
-.employee5 p,
-.employee6 p {
+.employee p {
   font-weight: 700;
   font-size: 18px;
   color: #007765;
   margin-top: -5px;
 }
-.employee1 div,
-.employee2 div,
-.employee3 div,
-.employee4 div,
-.employee5 div,
-.employee6 div {
+.employee div {
   font-weight: 400;
   font-size: 12px;
   font-style: italic;
@@ -172,4 +157,90 @@
   text-align: center;
   color: #EEEEEE;
   padding: 50px 200px 50px 200px;
+}
+
+@media (max-width: 1260px) {
+  .container {
+    padding: 0px 150px;
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    padding: 0;
+  }
+}
+@media (max-width: 960px) {
+  .intro {
+    display: block;
+  }
+  .intro .contentImg {
+    display: block;
+  }
+  .img {
+    float: left;
+  }
+}
+@media (max-width: 1075px) {
+  .block2 .piper {
+    padding: 100px;
+  }
+  .block4 .contentBlock4 {
+    padding: 100px 50px;
+  }
+}
+@media (max-width: 540px) {
+  .employeers {
+    display: block;
+  }
+  .employeers .up {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .employeers .employee {
+    margin-bottom: 20px;
+  }
+  .employeers .down {
+    margin-top: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 777px) {
+  .footer .contentFooter {
+    padding: 40px 20px;
+  }
+}
+@media (max-width: 504px) {
+  .header .logo {
+    font-size: 15px;
+  }
+  .header .headItems {
+    font-size: 15px;
+  }
+  .block2 .piper {
+    font-size: 50px;
+  }
+  .problem .headProblem {
+    font-size: 50px;
+  }
+  .problem .contentProblem {
+    font-size: 18px;
+  }
+  .block4 .contentBlock4 {
+    font-size: 38px;
+  }
+  .intro .headIntro {
+    font-size: 50px;
+  }
+}
+@media (max-width: 504px) {
+  .header .logo {
+    font-size: 10px;
+  }
+  .header .headItems {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
