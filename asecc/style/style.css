@@ -166,7 +166,7 @@
 }
 @media (max-width: 960px) {
   .container {
-    padding: 0;
+    padding: 0 50px;
   }
 }
 @media (max-width: 960px) {
@@ -188,7 +188,7 @@
     padding: 100px 50px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 640px) {
   .employeers {
     display: block;
   }

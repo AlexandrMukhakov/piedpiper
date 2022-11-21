@@ -204,7 +204,7 @@ $primoryFooter:#333333;
 
 @media (max-width: 960px) {
     .container {
-        padding: 0;
+        padding: 0 50px;
     }
 
 }
@@ -236,7 +236,7 @@ $primoryFooter:#333333;
 }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 640px) {
     .employeers {
         display: block;
         .up {
